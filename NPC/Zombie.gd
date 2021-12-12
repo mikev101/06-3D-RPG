@@ -3,12 +3,12 @@ extends KinematicBody
 onready var Dialogue = get_node("/root/Game/UI/Dialogue")
 
 var dialogue = [
-	"Zombie: Howdy partner! Welcome to my target range! (Press 'E' to continue)",
-	"Zombie: You lookin' to shoot some targets?",
+	"Rob the Zombie: Howdy partner! Welcome to my target range! (Press 'E' to continue)",
+	"Rob the Zombie: You lookin' to shoot some targets?",
 	"You bet!",
-	"Zombie: Fantastic! Now what ya gotta do is shoot all them targets BEFORE you run outta time understand?",
+	"Rob the Zombie: Fantastic! Now what ya gotta do is shoot all them targets BEFORE you run outta time understand?",
 	"Got it.",
-	"Zombie: Good, now get shootin'! (Press 'E' to start the challenge)",
+	"Rob the Zombie: Good, now get shootin'! (Press 'E' to start the challenge)",
 ]
 
 func _ready():
