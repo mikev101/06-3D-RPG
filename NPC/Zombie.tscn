@@ -159,7 +159,7 @@ bind/44/name = "right_toes"
 bind/44/bone = -1
 bind/44/pose = Transform( -0.992803, 0.00958511, -0.119373, -0.119664, -0.039574, 0.992026, 0.00478277, 0.999171, 0.0404359, -0.340618, -0.128335, -0.0149813 )
 
-[sub_resource type="SpatialMaterial" id=23]
+[sub_resource type="SpatialMaterial" id=19]
 albedo_texture = ExtResource( 2 )
 
 [sub_resource type="Animation" id=5]
@@ -4628,24 +4628,24 @@ tracks/44/imported = true
 tracks/44/enabled = true
 tracks/44/keys = PoolRealArray( 0, 1, 0, 0, 0, 9.31322e-10, -1.00797e-19, -1.0823e-10, 1, 1, 1, 1, 0.0666667, 1, 1.19344e-05, 0.00691772, 0.000555158, 0.00143266, -4.13489e-06, -2.66268e-07, 0.999999, 1, 1, 1, 0.133333, 1, 4.20283e-05, 0.0243615, 0.00195511, 0.00504551, -1.45621e-05, -9.38763e-07, 0.999987, 1, 1, 1, 0.2, 1, 8.11932e-05, 0.0470622, 0.00377692, 0.00974707, -2.81315e-05, -1.81298e-06, 0.999952, 1, 1, 1, 0.266667, 1, 0.000111287, 0.0645059, 0.00517687, 0.0133597, -3.85581e-05, -2.48531e-06, 0.999911, 1, 1, 1, 0.333333, 1, 0.000123221, 0.0714235, 0.00573203, 0.0147922, -4.26926e-05, -2.75186e-06, 0.999891, 1, 1, 1, 0.4, 1, 0.000111287, 0.0645059, 0.00517687, 0.0133597, -3.85581e-05, -2.48531e-06, 0.999911, 1, 1, 1, 0.466667, 1, 8.11932e-05, 0.0470622, 0.00377694, 0.00974707, -2.81315e-05, -1.81298e-06, 0.999952, 1, 1, 1, 0.533333, 1, 4.20283e-05, 0.0243615, 0.00195511, 0.00504551, -1.45621e-05, -9.3888e-07, 0.999987, 1, 1, 1, 0.6, 1, 1.19344e-05, 0.00691772, 0.000555158, 0.00143266, -4.13489e-06, -2.66384e-07, 0.999999, 1, 1, 1, 0.666667, 1, 0, 0, 0, 9.31322e-10, -1.00797e-19, -1.0823e-10, 1, 1, 1, 1, 0.733333, 1, 1.19344e-05, 0.00691772, 0.000555158, 0.00143267, -4.13489e-06, -2.66384e-07, 0.999999, 1, 1, 1, 0.8, 1, 4.20283e-05, 0.0243615, 0.00195511, 0.00504551, -1.45621e-05, -9.38647e-07, 0.999987, 1, 1, 1, 0.866667, 1, 8.11932e-05, 0.0470622, 0.00377692, 0.00974707, -2.81315e-05, -1.81298e-06, 0.999952, 1, 1, 1, 0.933333, 1, 0.000111287, 0.0645059, 0.00517687, 0.0133597, -3.85581e-05, -2.48531e-06, 0.999911, 1, 1, 1, 1, 1, 0.000123221, 0.0714235, 0.00573203, 0.0147922, -4.26926e-05, -2.75186e-06, 0.999891, 1, 1, 1, 1.06667, 1, 0.000111287, 0.0645059, 0.00517687, 0.0133597, -3.85581e-05, -2.48531e-06, 0.999911, 1, 1, 1, 1.13333, 1, 8.11927e-05, 0.047062, 0.00377692, 0.00974706, -2.81315e-05, -1.81298e-06, 0.999952, 1, 1, 1, 1.2, 1, 4.20283e-05, 0.0243615, 0.00195511, 0.0050455, -1.45621e-05, -9.38763e-07, 0.999987, 1, 1, 1, 1.26667, 1, 1.1934e-05, 0.0069176, 0.000555158, 0.00143265, -4.13486e-06, -2.66383e-07, 0.999999, 1, 1, 1, 1.33333, 1, 0, 0, 0, 9.31322e-10, -1.00797e-19, -1.0823e-10, 1, 1, 1, 1 )
 
-[sub_resource type="AnimationNodeAnimation" id=19]
+[sub_resource type="AnimationNodeAnimation" id=20]
 animation = "Idle"
 
-[sub_resource type="AnimationNodeBlend2" id=20]
+[sub_resource type="AnimationNodeBlend2" id=21]
 
-[sub_resource type="AnimationNodeAnimation" id=21]
+[sub_resource type="AnimationNodeAnimation" id=22]
 animation = "Run"
 
-[sub_resource type="AnimationNodeBlendTree" id=22]
+[sub_resource type="AnimationNodeBlendTree" id=23]
 graph_offset = Vector2( -151.35, 65.4075 )
-nodes/Idle/node = SubResource( 19 )
+nodes/Idle/node = SubResource( 20 )
 nodes/Idle/position = Vector2( 130, 70 )
-nodes/Idle_Run/node = SubResource( 20 )
+nodes/Idle_Run/node = SubResource( 21 )
 nodes/Idle_Run/position = Vector2( 470, 100 )
-nodes/Run/node = SubResource( 21 )
+nodes/Run/node = SubResource( 22 )
 nodes/Run/position = Vector2( 130, 210 )
 nodes/output/position = Vector2( 760, 150 )
-node_connections = [ "Idle_Run", 0, "Idle", "Idle_Run", 1, "Run", "output", 0, "Idle_Run" ]
+node_connections = [ "output", 0, "Idle_Run", "Idle_Run", 0, "Idle", "Idle_Run", 1, "Run" ]
 
 [node name="Zombie" type="KinematicBody"]
 
@@ -4885,7 +4885,7 @@ bones/44/bound_children = [  ]
 [node name="characterMedium" type="MeshInstance" parent="Root/Skeleton"]
 mesh = SubResource( 2 )
 skin = SubResource( 3 )
-material/0 = SubResource( 23 )
+material/0 = SubResource( 19 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 anims/Attack = SubResource( 5 )
@@ -4904,7 +4904,7 @@ anims/Shoot = SubResource( 17 )
 anims/Walk = SubResource( 18 )
 
 [node name="AnimationTree" type="AnimationTree" parent="."]
-tree_root = SubResource( 22 )
+tree_root = SubResource( 23 )
 anim_player = NodePath("../AnimationPlayer")
 active = true
 parameters/Idle_Run/blend_amount = 0.0
