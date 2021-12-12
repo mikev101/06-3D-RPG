@@ -5,9 +5,6 @@ Completes the basic project requirements.
 
 ## Implementation
 
-Known Bug: 
-- Using the 'shoot' animation prevents walk animation from working.
-
 Present Features:
 - [1] Assignment turned in on time
 - [1] Repository contains a descriptive README.md
