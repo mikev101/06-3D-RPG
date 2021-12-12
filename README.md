@@ -9,18 +9,18 @@ Known Bug:
 - Using the 'shoot' animation prevents walk animation from working.
 
 Present Features:
-- [1] Assignment turned in on time....................................................................: Done
-- [1] Repository contains a descriptive README.md ....................................................: Done
-- [1] No (script) syntax errors.......................................................................: Done
-- [1] No other runtime errors.........................................................................: Done
-- [2] Includes a user-controlled third-person 3D player...............................................: Done
-- [1] The camera follows the movement of the player...................................................: Done
-- [2] The player's model is animated..................................................................: Done 
-- [3] Includes a dialogue conversation with an agent..................................................: Done
-- [1] Reports the player's score......................................................................: Done
-- [1] The game includes terrain and/or obstacles......................................................: Done
-- [1] The game includes a hand-held item or weapon  with which the player can influence the world.....: Done
-- [2] The game has a clear objective..................................................................: Done
+- [1] Assignment turned in on time
+- [1] Repository contains a descriptive README.md
+- [1] No (script) syntax errors
+- [1] No other runtime errors
+- [2] Includes a user-controlled third-person 3D player
+- [1] The camera follows the movement of the player
+- [2] The player's model is animated 
+- [3] Includes a dialogue conversation with an agent
+- [1] Reports the player's score
+- [1] The game includes terrain and/or obstacles
+- [1] The game includes a hand-held item or weapon  with which the player can influence the world
+- [2] The game has a clear objective
 
 ## References
 
