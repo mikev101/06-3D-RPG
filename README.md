@@ -1,2 +1,4 @@
-# 06-3D-RPG
-Repository for C220 Project 06 RPG
+# Godot-3D-Template
+Godot Template for 3D Games
+
+Includes Keyboard mappings and Global.gd
