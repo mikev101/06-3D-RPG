@@ -8,6 +8,7 @@ Completes the basic project requirements.
 Known Bug: 
 - Using the 'shoot' animation prevents walk animation from working.
 
+Present Features:
 - [1] Assignment turned in on time....................................................................: Done
 - [1] Repository contains a descriptive README.md ....................................................: Done
 - [1] No (script) syntax errors.......................................................................: Done
