@@ -18,10 +18,7 @@ func _ready():
 	$AnimationPlayer.play("Idle")
 
 func _physics_process(delta):
-	if Input.is_action_just_pressed("shoot"):
-		$AnimationTree.active = false
-		$AnimationPlayer.play("Shoot")
-	
+
 	velocity.y += gravity * delta
 	var falling = velocity.y
 	velocity.y = 0
@@ -34,12 +31,17 @@ func _physics_process(delta):
 	var current_speed = velocity.length()
 	velocity = velocity.normalized() * clamp(current_speed, 0,max_speed)
 	velocity.y = falling
-	
+	if not $AnimationPlayer.is_playing():
+		$AnimationTree.active = true
+		$AnimationTree.set("parameters/Idle_Run/blend_amount", current_speed/max_speed)
 	$AnimationTree.set("parameters/Idle_Run/blend_amount", current_speed/max_speed)
 	velocity = move_and_slide(velocity, Vector3.UP, true)
 	
-	if Input.is_action_just_pressed("shoot") and target != null and target.is_in_group("target"):
-		target.die()
+	if Input.is_action_just_pressed("shoot"):
+		$AnimationTree.active = false
+		$AnimationPlayer.play("Shoot")
+		if target != null and target.is_in_group("target"):
+			target.die()
 
 	
 func _input(event):
